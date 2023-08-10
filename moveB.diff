@@ -1,0 +1,13 @@
+diff --git a/src/main/scala/example/foo/B.scala b/src/main/scala/example/bar/B.scala
+similarity index 60%
+rename from src/main/scala/example/foo/B.scala
+rename to src/main/scala/example/bar/B.scala
+index 0d64543..d04fa82 100644
+--- a/src/main/scala/example/foo/B.scala
++++ b/src/main/scala/example/bar/B.scala
+@@ -1,4 +1,4 @@
+ 
+-package example.foo
++package example.bar
+ 
+ case class B(value: String)
