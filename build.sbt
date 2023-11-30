@@ -8,4 +8,5 @@ lazy val root = (project in file("."))
   .settings(
     name := "zinc-bug-example"
   )
-
+libraryDependencies += "org.scala-sbt" %% "zinc" % "1.9.0-SNAPSHOT"
+resolvers += Resolver.file("Local Ivy Repository", new File(Path.userHome.absolutePath + "/.ivy2/local"))(Resolver.ivyStylePatterns)
